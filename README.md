@@ -2,8 +2,9 @@
 ## API Reference
 #### Fetch all the articles
 ```
-  GET http://localhost:3000/articles/sample
+  GET http://localhost:3000/articles/
 ```
+#### Fetch specific articles
 ```
   GET http://localhost:3000/articles/sample
 ```
@@ -13,9 +14,17 @@
 ```
 #### Delete all item init
 ```
+  DELETE http://localhost:3000/articles/
+```
+#### Delete specific articles
+```
   DELETE http://localhost:3000/articles/sample
 ```
-#### Delete all item init
+#### Put specific articles
 ```
-  DELETE http://localhost:3000/articles/sample
+  PUT http://localhost:3000/articles/sample
+```
+#### Patch specific articles
+```
+  PATCH http://localhost:3000/articles/sample
 ```
